@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="Css/H_F.css"/>
+    <link rel="stylesheet" type="text/css" href="Css/training.css"/>
+    <title>Тренировка</title>
+</head>
+<body>
+    <header class="contaner_f">
+        <div class="contaner d-flex">
+            <img src="Img/Logotip.png" width="64px"  alt="logo">
+            <nav class="menu">
+                <a href="Главная стр.html">Главная </a>
+                <a href="about.html">О зале</a>
+                <a href="team.html" >Наша команда </a>
+                <a href="trainig.html" >Тренировка </a>
+                <a href="contscts.html" >Контакты </a>
+                <a href="Расписание.html" >Расписание </a>
+            </nav>
+            <div class="contaner_ff">
+                <a href="trainig.html" >Пробная тренировка </a>
+            </div>
+        </div>
+    </header>
+
+    <h3>Остaвайтесь в форме, запишитесь<br> на пробную <span class="highlight">бесплатную</span> тренировку</h3>
+    <h1>Заполните форму и наш администратор свяжется с вами в ближайшее время</h1>
+    <div class="container">
+        <form id="form">
+            <div class="form-group">
+                <label for="first-name">Ваше имя</label>
+                <input type="text" id="first-name" name="first-name" required>
+            </div>
+
+            <div class="form-group">
+                <label for="last-name">Ваша фамилия</label>
+                <input type="text" id="last-name" name="last-name" required>
+            </div>
+
+            <div class="form-group">
+                <label for="phone">Ваш номер телефона</label>
+                <input type="tel" id="phone" name="phone" required>
+            </div>
+
+            <div class="form-group radio-group">
+                <input type="radio" id="call-now" name="contact-time" value="call-now" checked>
+                <label for="call-now">Позвонить сейчас</label>
+                
+                <input type="radio" id="select-time" name="contact-time" value="select-time">
+                <label for="select-time">Выбрать время</label>
+            </div>
+        
+            <div id="time-picker" class="form-group" style="display: none;">
+                <label for="time">Выберите время звонка</label>
+                <input type="time" id="time" name="time">
+            </div>
+        
+            <button type="submit" id="submit-btn">Отправить</button>
+        </form>
+    </div>
+
+    
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <h2>Спасибо за заявку!</h2>
+            <p>Мы свяжемся с вами в ближайшее время.</p>
+        </div>
+    </div>
+
+    <script src="./Js/script.js"></script>
+</body>
+</html>

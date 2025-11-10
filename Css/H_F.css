@@ -1,0 +1,54 @@
+body{
+    font-family:"Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 18px;
+}
+.contaner_f{
+    width: 100%;
+    border-bottom: 2px solid black;
+}
+.contaner{
+    max-width: 1140px;
+    margin:0 auto ;
+    padding: 16px 64px;
+}
+.contaner_ff{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 45px;
+    padding-right: 45px;
+    background-color: #9B1750;
+}
+header .contaner_ff a{
+    
+    text-decoration: none;
+    color: #FFF;
+}
+.d-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header > .contaner{
+    padding: 16px 64px;
+}
+header .contaner .menu a{
+    font-size: 18px;
+    text-decoration: none;
+    color: #000000;
+    margin: 0 20px;
+}
+header .contaner .menu a:hover{
+    color:#9B1750 ;
+    font-weight: 600;
+}
+header .contaner_ff a:hover{
+    color:#FFF ;
+    font-weight: 600;
+}
+.A4-1{
+    margin-top: 80px;
+    margin-left: 30%;
+    margin-right: 30%;
+}

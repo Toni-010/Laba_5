@@ -1,0 +1,42 @@
+.Text{
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-size: 54px;
+    color: #000;
+}
+.text{
+    text-align: left;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: #000;
+    margin-left: 80px;
+    
+}
+.text1{
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: #000;
+    margin-left: 20px;
+    
+}
+.Text1{
+    text-align: left;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    color: #9B1750;
+    margin-left: 80px;
+}
+.Cont{
+    display: inline-block;
+    width: 500px;
+    vertical-align: top;
+    margin-left: 200px;
+}
+.Carta{
+    display: inline-block;
+}

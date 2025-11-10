@@ -1,0 +1,74 @@
+.Back{
+    margin-top: 80px;
+    margin-left: 250px;
+}
+.Osnova{
+    margin-top: 80px;
+    margin-left: 250px;
+}
+.Foto, .Textblock{
+    display: inline-block;
+    vertical-align: top
+}
+.Text{
+    text-align: left;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-size: 54px;
+    color: #9B1750;
+    margin-top: 0px;
+    margin-left: 10px;
+}
+.text{
+    text-align: left;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: #000;
+    margin-top: -50px;
+    margin-left: 10px;
+}
+.Text1{
+    text-align: left;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-size: 34px;
+    color: #EC4D7C;
+    margin-top: 0px;
+    margin-left: 10px;
+}
+.text1{
+    text-align: left;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: #000;
+    margin-top: 0px;
+    margin-left: 10px;
+}
+.slider_img{
+    width: 500px;
+   
+}
+.slider_line{
+    display: flex;
+    transition: all 1s;
+}
+.slider{
+    width: 500px;
+    overflow: hidden;
+    position: relative;
+    margin-top: 112px;
+    margin-left: 35%;
+}
+.slider_btn-prev{
+    width: 200px;
+    margin-right: 115px;
+}
+.slider_btn-next{
+    width: 180px;
+}
+.slider_btn-prev:hover, .slider_btn-next:hover{
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.5);
+}
